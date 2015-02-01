@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:hint="Input something here..."/>
+
+    <Button
+        android:id="@+id/bButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here!"
+        android:textColor="#FF0000"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvTextView1"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <AnalogClock
+        android:id="@+id/acAnalogClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/acAutoComplete1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--<CalendarView-->
+        <!--android:id="@+id/cCalendarView1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center" />-->
+
+</LinearLayout>
